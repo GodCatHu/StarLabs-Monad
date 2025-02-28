@@ -84,18 +84,18 @@ FLOW:
     # 1. swaps
     # 2. bean or logs (randomly)
     # 3. collect_all_to_monad
-    # TASKS:
-    #     [
-    #         ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "nad_domains"],
-    #         "swaps",
-    #         ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "nad_domains"],
-    #         ["apriori", "magma", "kintsu", "shmonad"],
-    #         "collect_all_to_monad",
-    #         ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "swaps"],
-    #         ["apriori", "magma", "kintsu", "shmonad"],
-    #         "logs",
-    #     ]
-    TASKS: ["izumi"]
+#     TASKS:
+#         [
+#             ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "nad_domains"],
+#             "swaps",
+#             ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "nad_domains"],
+#             ["apriori", "magma", "kintsu", "shmonad"],
+#             "collect_all_to_monad",
+#             ["lilchogstars", "demask", "monadking", "monadking_unlocked", "accountable", "owlto", "swaps"],
+#             ["apriori", "magma", "kintsu", "shmonad"],
+#             "logs",
+#         ]
+    TASKS: ["disperse_from_one_wallet","MAGICEDEN", "swaps", "apriori", "magma", "owlto", "bima"]
 
     # number of swaps. bean ambient monad etc
     NUMBER_OF_SWAPS: [1, 3]
@@ -106,7 +106,7 @@ FLOW:
 FAUCET:
     MONAD_XYZ: true
 
-    CAPSOLVER_API_KEY: "CAP-"
+    CAPSOLVER_API_KEY: "CAP-81d7d6656c670f3fab32a0834a936af6"
     PROXY_FOR_CAPTCHA: ""
 
 
